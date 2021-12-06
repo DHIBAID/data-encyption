@@ -3,45 +3,45 @@
     "index.js": [
       {
         "id": "a97aab71-9877-414e-8675-da1d4173889f",
-        "line": 5,
-        "version": 1707,
-        "index": 50
+        "line": 1,
+        "version": 2172,
+        "index": 0
       },
       {
         "id": "405a982f-fe7f-476f-816e-57fe2d50ba40",
-        "line": 6,
-        "version": 1707,
-        "index": 79
+        "line": 1,
+        "version": 2172,
+        "index": 0
       },
       {
         "id": "30e17fc6-9a1b-4236-a55d-c71ceaab64ce",
-        "line": 19,
-        "version": 1707,
-        "index": 321
+        "line": 1,
+        "version": 2172,
+        "index": 0
       },
       {
         "id": "40ddc573-238d-4378-b48b-972db1752163",
-        "line": 21,
-        "version": 1716,
-        "index": 392
-      },
-      {
-        "id": "0ad5e05f-ced7-48d7-a9f2-53e0d105ec34",
-        "line": 45,
-        "version": 1847,
-        "index": 766
+        "line": 1,
+        "version": 2172,
+        "index": 0
       },
       {
         "id": "d2eff203-f599-4d87-946d-a43b934366f8",
-        "line": 50,
-        "version": 1707,
-        "index": 918
+        "line": 1,
+        "version": 2172,
+        "index": 0
       },
       {
         "id": "d6ce9cbd-c754-4f76-acf3-556f718684c6",
-        "line": 58,
-        "version": 1750,
-        "index": 1132
+        "line": 1,
+        "version": 2172,
+        "index": 0
+      },
+      {
+        "id": "0ad5e05f-ced7-48d7-a9f2-53e0d105ec34",
+        "line": 1,
+        "version": 2172,
+        "index": 0
       }
     ]
   }
