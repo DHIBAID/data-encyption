@@ -1,0 +1,16 @@
+{
+  "name": "key-hasher",
+  "version": "1.0.0",
+  "description": "Hashing algorithm that allows you to encypt your strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "keywords": [
+    "hash",
+    "key-hasher",
+    "encrpyter"
+  ],
+  "author": "DhiBaid",
+  "license": "ISC"
+}
