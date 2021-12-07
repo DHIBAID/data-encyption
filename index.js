@@ -98,7 +98,7 @@ class Hash {
    * @return {string} output
    */
 
-  caesar_cipher(step = 1, dir = "right"){
+  caesar_cipher(step = 1){
 
     let lower = "abcdefghijkmnopqrstuvwxyz"
     let upper = lower.toUpperCase()
