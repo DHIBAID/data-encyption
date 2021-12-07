@@ -40,7 +40,7 @@ class Hash {
   * @param {boolean} randomize
   */
 
-  DoubleDisplace(flip, randomize) {
+  DoubleDisplace(flip = false, randomize = false) {
     // order = first, last, secondLast, second...
 
     let noiseLayer = [0, 1, 1, 0, 0, 1, 0, 1, 1, 0]
@@ -92,9 +92,53 @@ class Hash {
     return output.join("")
   }
 
+  /**
+   * @param {number} step
+   * @param {string} direction
+   * @return {string} output
+   */
+
+  caesar_cipher(step = 1, dir = "right"){
+
+    let lower = "abcdefghijkmnopqrstuvwxyz"
+    let upper = lower.toUpperCase()
+    let position = 0
+    let output = []
+
+    for (let i = 0; i < this.stringIn.length; i++){
+
+      if (lower.includes(this.stringIn[i])) {
+        position = lower.indexOf(this.stringIn[i])
+        if (position % 26 == 0){
+          position = 0
+        } if (step % 26 == 0){
+          step = 0
+        }
+
+        output.push(lower[position + step])
+      }
+  
+      else if (upper.includes(this.stringIn[i])) {
+        position = upper.indexOf(this.stringIn[i])
+        if (position % 26 == 0){
+          position = 0
+        } if (step % 26 == 0){
+          step = 0
+        }
+
+        output.push(upper[position + step])
+      } else {
+      output.push(this.stringIn[i])
+      }
+      console.log(output.join(""))
+    } 
+  
+    return output.join("")
+
+  }
 
 }
 
-let string = new Hash("sample text").DoubleDisplace(false, true)
-
+let string = new Hash("sample text").caesar_cipher()
 console.log(string)
+
