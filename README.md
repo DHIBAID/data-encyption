@@ -1,5 +1,4 @@
-![logo](https://media.discordapp.net/attachments/843440782010613770/925639617095548938/image-removebg-preview_1.png)
-
+# EncryptData
 
 A lightweight package that allows you to encrypt your strings or data.
 
